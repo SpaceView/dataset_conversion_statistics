@@ -143,7 +143,7 @@ pix = 1.0
 sum_tot = torch.tensor([0, 0, 0])
 sum_sq_tot = torch.tensor([0, 0, 0])
 sum_pix = 0.0
-for i in range(2):# range(len(my_imgfiles)):
+for i in range(len(my_imgfiles)):
     img_name = os.path.join(image_root, my_imgfiles[i])  
 
     # NOTE: must convert to "int", otherwise image**2 will overflow 
@@ -180,17 +180,4 @@ std = std**0.5
 
 print(mean)
 print(std)
-
-save_txt_path = os.path.join(data_root, 'mean_std_sav.txt')
-with open(save_txt_path, "w") as f:
-    str_label="mean: " + '\n'
-    str_label =str_label+"    "+str('{}'.format(mean)) + '\n'
-    str_label =str_label+"    "+str('{}'.format(mean/255.0)) + '\n'
-    str_label = str_label + '\n'
-    str_label = str_label + 'std: ' + '\n'
-    str_label =str_label+"    "+str('{}'.format(std))  + '\n'
-    str_label =str_label+"    "+str('{}'.format(std/255.0)) + '\n'
-    f.write(str_label)
-
-print('done')
 
