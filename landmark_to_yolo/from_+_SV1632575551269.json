@@ -1,0 +1,48 @@
+{
+  "annotations": 
+  [
+    {
+      "id": 0,
+      "image_id": 0,
+      "category_id": 1,
+      "bbox": [ 302.0, 147.0, 104.0, 88.0 ],
+      "area": 0.0,
+      "type": "point",
+      "num_landmarks": 4,
+      "iscrowd": 0,
+      "segmentation": [ [ 405.5, 197.5, 384.0, 146.5, 302.0, 180.5, 323.0, 234.0 ] ]
+    },
+    {
+      "id": 0,
+      "image_id": 0,
+      "category_id": 1,
+      "bbox": [ 131.0, 110.0, 102.0, 96.0 ],
+      "area": 0.0,
+      "type": "point",
+      "num_landmarks": 4,
+      "iscrowd": 0,
+      "segmentation": [ [ 200.5, 205.5, 233.0, 161.0, 164.5, 110.0, 131.0, 154.5 ] ]
+    },
+    {
+      "id": 0,
+      "image_id": 0,
+      "category_id": 1,
+      "bbox": [ 231.0, 199.0, 106.0, 93.0 ],
+      "area": 0.0,
+      "type": "point",
+      "num_landmarks": 4,
+      "iscrowd": 0,
+      "segmentation": [ [ 259.5, 198.5, 230.5, 246.0, 308.0, 291.5, 336.0, 245.5 ] ]
+    },
+    {
+      "id": 0,
+      "image_id": 0,
+      "category_id": 1,
+      "bbox": [ 319.0, 273.0, 91.0, 102.0 ],
+      "area": 0.0,
+      "type": "point",
+      "num_landmarks": 4,
+      "iscrowd": 0,
+      "segmentation": [ [ 319.0, 349.5, 370.0, 374.5, 409.5, 298.5, 360.0, 272.5 ] ]
+    }
+  ],"images":[{"file_name":"SV1632575551269.png","height":480,"width":640,"id":0}]}
