@@ -143,7 +143,7 @@ pix = 1.0
 sum_tot = torch.tensor([0, 0, 0])
 sum_sq_tot = torch.tensor([0, 0, 0])
 sum_pix = 0.0
-for i in range(2):# range(len(my_imgfiles)):
+for i in range(len(my_imgfiles)):
     img_name = os.path.join(image_root, my_imgfiles[i])  
 
     # NOTE: must convert to "int", otherwise image**2 will overflow 
