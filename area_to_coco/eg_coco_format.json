@@ -1,0 +1,60 @@
+{
+  "type": "instances",
+  "images": [
+    {
+      "file_name": "0.jpg",
+      "height": 600,
+      "width": 800,
+      "id": 0                    ----> image_id
+    }
+  ],
+  "categories": [
+    {
+      "supercategory": "none",   ----> supercategory can be anything
+      "name": "date",
+      "id": 0                    ----> category_id
+    },
+    {
+      "supercategory": "none",
+      "name": "hazelnut",
+      "id": 2
+    },
+    {
+      "supercategory": "none",
+      "name": "fig",
+      "id": 1
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,                  ----> annotation id (each annotation has a unique id)
+      "bbox": [
+        100,
+        116,
+        140,
+        170
+      ],
+      "image_id": 0,
+      "segmentation": [],
+      "ignore": 0,
+      "area": 23800,
+      "iscrowd": 0,
+      "category_id": 0
+    },
+    {
+      "id": 2,
+      "bbox": [
+        321,
+        320,
+        142,
+        102
+      ],
+      "image_id": 0,
+      "segmentation": [],
+      "ignore": 0,
+      "area": 14484,
+      "iscrowd": 0,
+      "category_id": 0
+    }
+  ]
+}

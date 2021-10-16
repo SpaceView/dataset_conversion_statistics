@@ -13,7 +13,8 @@ import os
 from collections import defaultdict
 import sys
 
-os.environ["LANDMARK_IMAGE_PATH"] = '../Rotated_DONE/'
+#os.environ["LANDMARK_IMAGE_PATH"] = '../Rotated_DONE/'
+os.environ["LANDMARK_IMAGE_PATH"] = '../rotated/'
 data_root = os.environ['LANDMARK_IMAGE_PATH']
 image_root = os.path.join(data_root, '')        #'db', 'coco', 'images')
 ann_root = os.path.join(data_root, 'coco')      # 'db', 'coco', 'instances.json')
