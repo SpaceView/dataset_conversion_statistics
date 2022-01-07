@@ -66,7 +66,6 @@ if not os.path.exists(target_root):
     os.makedirs(target_root)
 """
 
-
 def resize_image(img_in):
     ht, wd = img_in.shape[0:2]
     ry = TARGET_HEIGHT / ht
@@ -109,7 +108,5 @@ if __name__ == "__main__":
 
     print('Main Done!')
 
-
 print('All done!')
-
 
