@@ -27,3 +27,11 @@ git status
 git commit -m "first commit"
 git push -u origin main -f
 ```
+
+
+```
+git add --all
+git status
+git commit -m "second commit"
+git push -u origin main -f
+```
