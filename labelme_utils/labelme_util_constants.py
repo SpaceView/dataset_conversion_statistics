@@ -1,0 +1,1 @@
+MAX_CAT_ID = 7        # ---------> for evaluation
