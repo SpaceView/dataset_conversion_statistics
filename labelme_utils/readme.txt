@@ -13,9 +13,9 @@
 640x640，或640x480
 说明：为了应用方便，目前所有训练统一采用宽度为640的图片：640x640，640x480。
 
-（四）通过scaling_generalization进行缩放泛化
+（四）通过scaling_generalization进行缩放泛化（可选，根据具体场景确定是否需要）
 
-（五）通过generate_rot_imgs.py进行角度泛化
+（五）通过generate_rot_imgs.py进行角度泛化（可选，根据具体场景确定是否需要）
 
 （六）各种生成的标注，可以通过coco2lableme再转换成lableme格式，以用labelme软件查看最终的转换结果是否正确。
 https://github.com/SpaceView/labelme/blob/main/examples/instance_segmentation/coco2labelme_polygon.py
