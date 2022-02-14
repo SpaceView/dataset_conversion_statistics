@@ -17,4 +17,7 @@
 
 （五）通过generate_rot_imgs.py进行角度泛化
 
+（六）各种生成的标注，可以通过coco2lableme再转换成lableme格式，以用labelme软件查看最终的转换结果是否正确。
+https://github.com/SpaceView/labelme/blob/main/examples/instance_segmentation/coco2labelme_polygon.py
+
 
