@@ -1,1 +1,1 @@
-MAX_CAT_ID = 7        # ---------> for evaluation
+MAX_CAT_ID = 8        # ---------> for evaluation

@@ -47,7 +47,7 @@ os.environ["IMG_ROOT_PATH"] = 'E:/EsightData/JX05ANN/cofmt/'
 os.environ["TARGET_PATH"] = 'E:/EsightData/JX05ANN/resize'
 
 data_root = os.environ['IMG_ROOT_PATH']
-image_root = os.path.join(data_root, 'PNGImages')
+image_root = os.path.join(data_root, 'images')
 ann_root = os.path.join(data_root, 'ann')
 
 target_root = os.environ['TARGET_PATH']

@@ -285,8 +285,8 @@ def main():
             #===================================================
             # save a rotated json, label(txt), img for each angle
             for ang_id in range(ANG_DIV_NUM):
-                if 0==ang_id:
-                    continue
+                #if 0==ang_id:
+                #    continue
                 
                 #NOTE: Don't use shallow copy, e.g. dataset_copy = dataset.copy()
                 dataset_copy = copy.deepcopy(dataset)
@@ -392,7 +392,6 @@ def main():
                         # cv2.rectangle(img_crop, (bbox[0], bbox[1]), (bbox[2], bbox[3]), color)
                         # cv2.imshow('img_crop', img_crop)
                         # cv2.waitKey()
-
                         anItem['bbox'] = [bx[0], bx[1], bx[2]-bx[0], bx[3]-bx[1]]
 
                     elif ('polygon'==anItem['type']):
@@ -418,13 +417,13 @@ def main():
                     bbox = anItem['bbox']
                     bx_left = bbox[0]
                     bx_top = bbox[1]
-                    bx_wd = bbox[2] - bbox[0]  #NOTE: the mask bbox is (x1, y1, x2, y2)
-                    bx_ht = bbox[3] - bbox[1]
+                    bx_wd = bbox[2]  #NOTE: the mask bbox is (x1, y1, x2, y2)
+                    bx_ht = bbox[3]
                     
                     annotation = np.zeros((1, 4)) #annotation = np.zeros((1, 4+2*LMK_NUM))
                     annotation[0, 0] = (bx_left + bx_wd / 2) / width_org  # cx
                     annotation[0, 1] = (bx_top + bx_ht / 2) / height_org  # cy
-                    annotation[0, 2] = bx_wd / width_org  # w
+                    annotation[0, 2] = bx_wd / width_org   # w
                     annotation[0, 3] = bx_ht / height_org  # h
 
                     #str_label="0 "
