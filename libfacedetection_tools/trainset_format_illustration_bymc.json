@@ -1,0 +1,42 @@
+{"images": 
+[
+{"file_name": "./44--Aerobics/44_Aerobics_Aerobics_44_53.jpg", "height": 683, "width": 1024, "id": 0},
+{"file_name": "./44--Aerobics/44_Aerobics_Aerobics_44_28.jpg", "height": 736, "width": 1024, "id": 1}, 
+{"file_name": "./44--Aerobics/44_Aerobics_Aerobics_44_591.jpg", "height": 936, "width": 1024, "id": 2}, 
+{"file_name": "./44--Aerobics/44_Aerobics_Aerobics_44_46.jpg", "height": 520, "width": 1024, "id": 3}, 
+{"file_name": "./44--Aerobics/44_Aerobics_Aerobics_44_321.jpg", "height": 1392, "width": 1024, "id": 4}, 
+{"file_name": "./44--Aerobics/44_Aerobics_Aerobics_44_946.jpg", "height": 1001, "width": 1024, "id": 5}, 
+{"file_name": "./44--Aerobics/44_Aerobics_Aerobics_44_307.jpg", "height": 1139, "width": 1024, "id": 6}, 
+{"file_name": "./44--Aerobics/44_Aerobics_Aerobics_44_943.jpg", "height": 1156, "width": 1024, "id": 7},
+{"file_name": "./44--Aerobics/44_Aerobics_Aerobics_44_711.jpg", "height": 1656, "width": 1024, "id": 8},
+...
+{"file_name": "./27--Spa/27_Spa_Spa_27_110.jpg", "height": 307, "width": 1024, "id": 12860}, 
+{"file_name": "./27--Spa/27_Spa_Spa_27_879.jpg", "height": 1024, "width": 1024, "id": 12861}, 
+{"file_name": "./27--Spa/27_Spa_Spa_27_219.jpg", "height": 682, "width": 1024, "id": 12862}], 
+"annotations": 
+[
+{"segmentation": [[421.1, 133.2, 445.5, 125.5, 432.6, 145.4, 432.3, 159.9, 450.6, 153.4]], "area": 4356.76, "iscrowd": 0, "image_id": 0, "bbox": [411.5, 100.1, 59.6, 73.1], "category_id": 1, "id": 0, "ignore": 0}, 
+{"segmentation": [[537.6, 120.5, 546.8, 119.1, 541.2, 125.2, 539.9, 130.7, 547.1, 129.5]], "area": 585.66, "iscrowd": 0, "image_id": 0, "bbox": [534.4, 110.9, 22.7, 25.8], "category_id": 1, "id": 1, "ignore": 0}, 
+{"segmentation": [[104.5, 152.8, 116.5, 150.9, 109.9, 158.4, 107.3, 164.1, 117.7, 162.5]], "area": 953.2800000000001, "iscrowd": 0, "image_id": 0, "bbox": [99.3, 139.2, 28.8, 33.1], "category_id": 1, "id": 2, "ignore": 0},
+{"segmentation": [[823.0, 102.6, 832.1, 102.6, 826.2, 107.1, 823.6, 112.3, 830.9, 112.2]], "area": 497.96000000000004, "iscrowd": 0, "image_id": 0, "bbox": [819.0, 95.6, 21.1, 23.6], "category_id": 1, "id": 3, "ignore": 0}, 
+{"segmentation": [[955.1, 94.6, 971.3, 96.7, 961.0, 106.2, 954.8, 111.8, 966.8, 113.3]], "area": 1760.5900000000001, "iscrowd": 0, "image_id": 0, "bbox": [945.4, 76.2, 37.7, 46.7], "category_id": 1, "id": 4, "ignore": 0}, 
+{"segmentation": [[597.0, 121.9, 603.2, 121.7, 600.3, 125.3, 598.1, 127.7, 602.5, 127.5]], "area": 195.35999999999999, "iscrowd": 0, "image_id": 0, "bbox": [593.3, 115.6, 13.2, 14.8], "category_id": 1, "id": 5, "ignore": 0}, 
+{"segmentation": [[756.2, 115.3, 762.5, 115.1, 759.5, 118.2, 757.2, 121.5, 762.1, 121.3]], "area": 221.1, "iscrowd": 0, "image_id": 0, "bbox": [752.5, 108.7, 13.4, 16.5], "category_id": 1, "id": 6, "ignore": 0}, 
+{"segmentation": [[358.1, 117.4, 372.8, 116.2, 370.0, 123.7, 361.8, 134.2, 373.6, 133.4]], "area": 1874.5200000000002, "iscrowd": 0, "image_id": 0, "bbox": [340.3, 96.7, 38.1, 49.2], "category_id": 1, "id": 7, "ignore": 0}, 
+{"segmentation": [[379.5, 129.0, 389.0, 129.0, 384.7, 133.6, 380.9, 138.7, 387.5, 138.7]], "area": 552.16, "iscrowd": 0, "image_id": 0, "bbox": [373.1, 116.6, 20.3, 27.2], "category_id": 1, "id": 8, "ignore": 0}, 
+{"segmentation": [[709.0, 126.4, 713.6, 126.1, 711.4, 128.5, 709.7, 130.8, 713.6, 130.6]], "area": 124.23, "iscrowd": 0, "image_id": 0, "bbox": [706.5, 121.5, 10.1, 12.3], "category_id": 1, "id": 9, "ignore": 0},
+{"segmentation": [[572.8, 126.0, 581.4, 126.0, 576.7, 131.5, 574.6, 134.5, 580.3, 134.4]], "area": 371.05, "iscrowd": 0, "image_id": 0, "bbox": [569.0, 116.7, 18.1, 20.5], "category_id": 1, "id": 10, "ignore": 0}, 
+
+{"segmentation": [[931.5, 271.4, 943.9, 269.6, 936.0, 278.6, 935.2, 286.0, 944.5, 284.4]], "area": 1200.3700000000001, "iscrowd": 0, "image_id": 1, "bbox": [927.0, 255.3, 30.7, 39.1], "category_id": 1, "id": 11, "ignore": 0},
+{"segmentation": [[473.7, 339.6, 481.5, 339.6, 474.1, 345.6, 475.3, 351.7, 481.4, 351.4]], "area": 818.4, "iscrowd": 0, "image_id": 1, "bbox": [471.2, 326.5, 24.8, 33.0], "category_id": 1, "id": 12, "ignore": 0},
+{"segmentation": [[28.5, 326.5, 34.1, 323.5, 31.7, 333.3, 39.8, 337.5, 42.5, 334.7]], "area": 912.0300000000001, "iscrowd": 0, "image_id": 1, "bbox": [23.9, 310.9, 30.1, 30.3], "category_id": 1, "id": 13, "ignore": 0}, 
+{"segmentation": [[413.6, 314.8, 418.6, 315.9, 412.2, 319.4, 412.7, 324.3, 416.4, 324.8]], "area": 477.52, "iscrowd": 0, "image_id": 1, "bbox": [410.3, 305.7, 18.8, 25.4], "category_id": 1, "id": 14, "ignore": 0}, 
+{"segmentation": [[599.5, 263.3, 614.7, 263.0, 603.4, 272.6, 601.1, 283.4, 612.3, 283.2]], "area": 1978.4599999999998, "iscrowd": 0, "image_id": 1, "bbox": [594.8, 242.8, 37.4, 52.9], "category_id": 1, "id": 15, "ignore": 0}, 
+{"segmentation": [[828.2, 290.6, 839.6, 290.0, 832.2, 297.0, 830.0, 303.8, 838.8, 303.3]], "area": 865.8, "iscrowd": 0, "image_id": 1, "bbox": [824.6, 278.5, 26.0, 33.3], "category_id": 1, "id": 16, "ignore": 0},
+...
+{"segmentation": [[738.1, 329.4, 747.3, 329.3, 741.2, 334.4, 738.8, 340.2, 746.2, 340.1]], "area": 607.7599999999999, "iscrowd": 0, "image_id": 1, "bbox": [734.6, 319.3, 21.4, 28.4], "category_id": 1, "id": 17, "ignore": 0}, 
+{"segmentation": [[876.7, 210.8, 877.4, 211.2, 874.3, 218.4, 878.8, 225.6, 879.2, 225.7]], "area": 847.5, "iscrowd": 0, "image_id": 12862, "bbox": [872.6, 197.0, 22.6, 37.5], "category_id": 1, "id": 113613, "ignore": 0}], 
+"categories":
+[
+{"name": "background", "id": 0}, 
+{"name": "face", "id": 1}]}
