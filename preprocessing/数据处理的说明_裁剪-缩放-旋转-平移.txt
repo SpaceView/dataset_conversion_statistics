@@ -1,0 +1,35 @@
+裁剪-->缩放-->旋转-->平移
+
+
+step01：裁剪
+圆形视角的：cut to 1:1
+方形视角的：cut to 4:3
+
+
+step02：缩放
+（1）scaling generalization --> 是否可忽略？
+    （1a）横向压缩再填充
+    （1b）纵向压缩再填充
+（2）resize to taget size
+
+
+step03：旋转
+（1）任意起始角度，
+
+
+step03：平移
+（1）任意(-x, -y)和（x, y)值
+
+
+======================================
+
+(1)需要裁剪的方案
+resize --> rotate --> random shift (-x, -y) /(x, y) 
+圆形视角的：cut to 1:1 ---> resize 640x640
+方形视角的4:3 ---> resize 640x480
+
+(2)不需要裁剪的方案
+cut --> resize --> rotate --> random shift (-x, -y) /(x, y) 
+圆形视角的1:1 ---> resize 640x640
+方形视角的4:3 ---> resize 640x480
+
