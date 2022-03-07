@@ -25,8 +25,11 @@ TARGET_WIDTH = 640
 WHITE_PAD = (255,255,255)
 BLACK_PAD = (0,0,0)
 
-img_org_root = 'E:/EsightData/0218test/img/'
-img_tgt_root = 'E:/EsightData/0218test/img_resize'
+# for test purpose
+#img_org_root = 'E:/EsightData/0221/final/imgTest'
+# for application purpose
+img_org_root = 'E:/EsightData/0221/final/img'
+img_tgt_root = 'E:/EsightData/0221/final/imgResize'
 
 
 #NOTE： the root dir depends on the dir where PYTHON is executed
@@ -34,8 +37,10 @@ img_tgt_root = 'E:/EsightData/0218test/img_resize'
 os.environ["IMG_ROOT_PATH"] = img_org_root
 os.environ["TARGET_PATH"] = img_tgt_root
 
+
 data_root = os.environ['IMG_ROOT_PATH']
 target_root = os.environ['TARGET_PATH']
+
 
 def run_fast_scandir(dir, ext):    # dir: str, ext: list
     subfolders, files = [], []

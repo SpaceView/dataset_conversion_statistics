@@ -44,8 +44,8 @@ MASKCHAR = 255
 
 #NOTE： the root dir depends on the dir where PYTHON is executed
 #       e.g.  '../Rotated_DONE/',  'E:/img/Tr0805rot/rot/', etc.
-os.environ["IMG_ROOT_PATH"] = 'E:/EsightData/0218test/img/rename'
-os.environ["TARGET_PATH"] = 'E:/EsightData/0218test/img/renameCut'
+os.environ["IMG_ROOT_PATH"] = 'E:/EsightData/0221/final/img/renameTgt'
+os.environ["TARGET_PATH"]   = 'E:/EsightData/0221/final/img/renameCut'
 
 data_root = os.environ['IMG_ROOT_PATH']
 image_root = data_root
