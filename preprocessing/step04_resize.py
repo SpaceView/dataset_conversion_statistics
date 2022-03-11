@@ -20,8 +20,17 @@ import pathlib
 import cv2
 import base64
 
-TARGET_HEIGHT = 640
-TARGET_WIDTH = 640
+#sys.path.insert(1, 'D:/py/img_python/')
+FILE = pathlib.Path(__file__).resolve()
+ROOT = FILE.parents[1]  # YOLOv5 root directory
+if str(ROOT) not in sys.path:
+    sys.path.append(str(ROOT))  # add ROOT to PATH
+ROOT = pathlib.Path(os.path.relpath(ROOT, pathlib.Path.cwd()))  # relative
+
+#TARGET_HEIGHT = 640
+#TARGET_WIDTH = 640
+from img_utils.labelme_util_constants import TRAIN_IMG_WDITH as TARGET_WIDTH
+from img_utils.labelme_util_constants import TRAIN_IMG_HEIGHT as TARGET_HEIGHT
 WHITE_PAD = (255,255,255)
 BLACK_PAD = (0,0,0)
 
@@ -111,6 +120,7 @@ def resize_polygon(points,  ht0, wd0, ht1, wd1):
     dys = ypts * ry
     arr = np.stack((dxs, dys), axis = -1) #np.vstack((dxs, dys))   #arr = arr.flatten('F')
     return arr, dxs, dys
+    
 
 if __name__ == "__main__":
     subfolders, img_files = run_fast_scandir(data_root, [".bmp", ".png", ".jpg", ".jpeg"])
