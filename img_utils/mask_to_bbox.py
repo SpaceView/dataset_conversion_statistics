@@ -14,32 +14,26 @@ def create_dir(path):
 def mask_to_border(mask):
     h, w = mask.shape
     border = np.zeros((h, w))
-
     contours = find_contours(mask, 128)
     for contour in contours:
         for c in contour:
             x = int(c[0])
             y = int(c[1])
             border[x][y] = 255
-
     return border
 
 """ Mask to bounding boxes """
 def mask_to_bboxes(mask):
     bboxes = []
-
     brd = mask_to_border(mask)
     lbl = label(brd)
     props = regionprops(lbl)
     for prop in props:
         x1 = prop.bbox[1]
         y1 = prop.bbox[0]
-
         x2 = prop.bbox[3]
         y2 = prop.bbox[2]
-
         bboxes.append([x1, y1, x2, y2])
-
     return bboxes
 
 def mask_to_bbox(mask):
@@ -55,7 +49,6 @@ def mask_to_bbox(mask):
         y1 = prop.bbox[0]
         x_min = min(x_min, x1)
         y_min = min(y_min, y1)
-
         x2 = prop.bbox[3]
         y2 = prop.bbox[2]
         x_max = max(x_max, x2)

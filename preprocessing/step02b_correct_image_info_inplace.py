@@ -78,20 +78,20 @@ my_imgPaths = []
 my_jsonfiles = []
 my_jsonPaths = []
 
+empty_images_count = 0
 for i  in range(len(onlyfiles)):
     if(pathlib.Path(onlyfiles[i]).suffix=='.png') or (pathlib.Path(onlyfiles[i]).suffix=='.jpg') or (pathlib.Path(onlyfiles[i]).suffix=='.jpeg'):
         json_file = pathlib.Path(onlyfiles[i]).stem + '.json'
         label_file = pathlib.Path(onlyfiles[i]).stem + '.txt'
         annotation_file = os.path.join(ann_root, json_file)
         img_file = os.path.join(image_root, onlyfiles[i])
-        if not isfile(annotation_file):
-            #os.remove(img_file)
+        if not isfile(annotation_file):   # os.remove(img_file)
             print("--------> empty image file (no corresponding annotations): ", img_file)
             empty_images_count = empty_images_count + 1
             continue
         my_imgfiles.append(onlyfiles[i])
         my_imgPaths.append(img_file)
-        my_jsonfiles.append(json_file)        
+        my_jsonfiles.append(json_file)
         my_jsonPaths.append(annotation_file)
 
 #===========================================================================

@@ -350,7 +350,7 @@ def main():
 
                     #---------------------------------------------------------
                     #(1) section for json segmentation & bbox file
-                    if ('area'==anItem['type']):    # -------->label type                        
+                    if ('area'==anItem['type']):    # --------> label type                        
                         segment = anItem['segmentation']
                         if not 'counts' in segment:
                             continue

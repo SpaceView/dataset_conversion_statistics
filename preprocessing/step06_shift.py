@@ -178,6 +178,7 @@ def rotate_polygon_t(points, center, angle):
     arr = np.stack((dxs1, dys1), axis = -1) #np.vstack((dxs, dys))   #arr = arr.flatten('F')
     return dxs1, dys1, arr
 
+
 def extract_bbox_t(points):
     pts = points
     if not isinstance(pts, np.ndarray):        
@@ -187,6 +188,7 @@ def extract_bbox_t(points):
     ypts = pts[0:l_pts, 1]
     bbox = (xpts.min(),ypts.min(),xpts.max(),ypts.max())
     return bbox
+
 
 def rleToMask(rleNumbers,height,width):
     #NOTE: rleNumbers = [67348, 6, 592, 9, 590, 11, 588, 13, 586, 15, 585, 16, 583, 17, ...]
